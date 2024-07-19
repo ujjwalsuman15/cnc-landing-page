@@ -1,0 +1,29 @@
+
+<svg id="Top-Banner-Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="872" viewBox="0 0 1920 872">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #001a50;
+      }
+
+      .cls-2 {
+        fill: #002779;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: #0041ca;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2823" data-name="Rectangle 2823" class="cls-1" width="1920" height="728" transform="translate(-240 88)"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_1987" data-name="Rectangle 1987" class="cls-2" width="1920" height="872"/>
+  <g id="Mask_Group_405" data-name="Mask Group 405" class="cls-3" transform="translate(240 56)">
+    <path id="Path_14910" data-name="Path 14910" class="cls-4" d="M-1793.75-13099.269s663.9-284.473,1096-152,501.893,186.461,1000-40c-33.584,144.834,152,512,152,512l-1296-24-952,32Z" transform="translate(1426 13723.269)"/>
+  </g>
+</svg>
