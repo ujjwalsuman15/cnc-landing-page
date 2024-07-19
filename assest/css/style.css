@@ -17,10 +17,12 @@
     font-weight: 900;
 }
 
-.bg-orange {
+.bg-ghostwhite {
     background: ghostwhite;
 }
-
+.bg-orange{
+    background: #EDA827;
+}
 .bg-blue {
     background: #1A4CB4;
 }
@@ -104,6 +106,17 @@
 }
 
 /* ========================= /hero-form section end ========================= */
+/* mncs section start */
+.mncs .mncs-logo img{
+width: 100%;
+height: 100px;
+transition: all 0.5s;
+padding: 20px;
+}
+.mncs .mncs-logo img:hover{
+    transform: scale(1.2);
+}
+/* mncs section end */
 /* mediascreen section start */
 @media screen and (max-width:1199px) {}
 
