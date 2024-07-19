@@ -150,6 +150,9 @@ padding: 20px;
         color: #fff;
         font-weight: bold;
     }
+    footer h3{
+        font-size: 15px;
+    }
 }
 
 /* mediascreen section end */
