@@ -66,7 +66,7 @@
                         </div>
                         <div class="mt-2">
                             <select name="Technology" class="form-control p-2">
-                                <option>Select Technology </option>
+                                <option>-- Select Technology -- </option>
                                 <option>Java Full stack Development</option>
                                 <option>Frontend Development</option>
                                 <option>PHP Full Stack Development</option>
@@ -90,7 +90,7 @@
         <h2 class="text-center text-orange fs-2 fw-bold py-5 ">
             Most Interview Questions and Answers Asked in MNCs Company
         </h2>
-        <div class="container mncs-logo py-md-1 pb-md-5 py-5">
+        <div class="container mncs-logo py-md-1 pb-md-5 py-3">
             <div class="row row-cols-lg-5 row-cols-md-4 row-cols-sm-3 row-cols-2 g-4">
                 <div class="col">
                     <img src="./assest/img/tcs.png" alt="" class="img-fluid">
@@ -175,11 +175,80 @@
     </section>
     <!-- mncs company section end -->
 
+    <!-- fixed section start -->
+
+    <!-- Button trigger modal -->
+    <div class="float-end">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Apply Now
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Q & A Form</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" name="form">
+                            <div class="form-floating mb-3 mt-2">
+                                <input type="text" name="Name" class="form-control" id="name" placeholder="Ujjwal"
+                                    required>
+                                <label for="name">Name:-</label>
+                            </div>
+                            <div class="form-floating mb-3 ">
+                                <input type="tel" class="form-control" name="Whatsapp Number" id="whatsapp"
+                                    placeholder="910000000000" required>
+                                <label for="whatsapp">Whatsapp Number:- </label>
+                            </div>
+                            <div class="form-floating mb-3 ">
+                                <input type="email" class="form-control" name="Email" id="email"
+                                    placeholder="name@example.com" required>
+                                <label for="email">Email address:- </label>
+                            </div>
+                            <div class="form-floating mb-3 mt-2">
+                                <input type="text" name="Name" class="form-control" id="name" placeholder="B.Sc"
+                                    required>
+                                <label for="name">Last Education:-</label>
+                            </div>
+                            <div class="fw-bold">
+                                Q & A of Technology :
+                            </div>
+                            <div class="mt-2">
+                                <select name="Technology" class="form-control p-2">
+                                    <option>-- Select Technology -- </option>
+                                    <option>Java Full stack Development</option>
+                                    <option>Frontend Development</option>
+                                    <option>PHP Full Stack Development</option>
+                                    <option>Python Full Stack Development</option>
+                                    <option>Dot net full stack </option>
+                                    <option>Data Analytics </option>
+                                    <option>Software Testing</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="reset" class="btn btn-secondary" data-bs-dismiss="modal">Reset</button>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- fixed section end -->
+
     <!-- footer section start -->
-    <footer class="bg-orange pt-2 text-light text-center">
+    <footer class="bg-orange pt-2 text-light text-center mt-5">
         <h3>ALL RIGHT RESERVED @CNC WEB WORLD </h3>
     </footer>
     <!-- footer section end -->
+
+
 
     <!-- script section start -->
 

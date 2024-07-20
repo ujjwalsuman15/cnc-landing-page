@@ -129,6 +129,13 @@
 }
 
 /* mncs section end */
+
+/* fixed section start */
+.bottombtn{
+    float: right;
+}
+/* fixed section end */
+
 /* mediascreen section start */
 @media screen and (max-width:1199px) {}
 
